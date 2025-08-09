@@ -1,0 +1,4 @@
+Q: What've you learned about GitHub so far?
+Ans: 
+ - i learned that program & coding is very hard but, i think that think that once i came to understand it'll be very useful 
+ - GitHub is a very good version control and is easy to uses for beginning-level like myself 
