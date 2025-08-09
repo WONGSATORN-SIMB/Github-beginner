@@ -10,5 +10,6 @@ Github-beginner
 
 2. Pencil
 
-```print("Hello, SIMB!")
+```Python
+print("Hello, SIMB!")
 
