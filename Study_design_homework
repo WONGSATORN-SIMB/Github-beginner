@@ -1,0 +1,83 @@
+## HOMEWORK ## 
+Discussion Prompts: Designing a Study for a Novel Gene Variant
+
+[Scenario:] Imagine a large-scale Genome-Wide Association Study (GWAS) has identified a novel gene variant, VAR-X. 
+Preliminary data suggest VAR-X is significantly associated with accelerated cognitive decline in patients already 
+diagnosed with Alzheimer's disease. As a team of epidemiologists and bioinformaticians, your group has been tasked with designing the definitive 
+study to validate this association and understand its clinical impact.
+
+[Question 1:] The Foundational Design Choice
+Propose two distinct epidemiological study designs that could rigorously test the hypothesis that VAR-X 
+is associated with accelerated cognitive decline in Alzheimer's patients. For this discussion:
+
+Part A: Choose one observational design (e.g., prospective cohort, retrospective cohort, or case-control) and one experimental design 
+(e.g., a hypothetical randomized controlled trial for a therapeutic targeting the VAR-X pathway).
+      - observational design: Prospective cohort 
+      - Experimental design: Randomized controlled trial or RCT
+
+Part B: For each design, define your specific study population, primary exposure, and primary outcome measure.
+      - Observational design: Prospective cohort
+            Study population: 65+ years patients who are already diagnosed with Alzheimer's disease.
+            Primary exposure: presence of the VAR-X allele.
+            Primary outcome: The rate of cognitive decline every 6 months over a 3-5 year follow-up period 
+      - Experimental design: Randomized controlled trial or RCT
+            Study population: 65+ years patients who are already diagnosed with Alzheimer's disease.
+            Primary exposure: treatment group vs placebo group.
+            Primary outcome: The change in cognitive function after 12-18 months of treatment, measured by MMSE scores
+
+Part C: Debate and justify which design would provide the strongest evidence for causality. 
+What are the primary trade-offs between the two in terms of ethics, cost, feasibility, and time?
+      - Observational design: Prospective cohort
+            Ethics: lower risk, as it involves only observation and analysis.
+            Cost: fairly moderate cost, the cost needed to keep the follow-up process.
+            Feasibility: Could turn the ideal into reality as long as the conditions are met.
+            Time: Much longer time, requires more consistency
+            Causality: moderately, but residual confounding is always a risk
+      - Experimental design: Randomized controlled trial or RCT
+            Ethics: High risk, as it involves direct interaction with the patients and the safety of the said drug.
+            Cost: Fairly High cost, requires producing the new drug, the approval from FDA.
+            Feasibility: lower, requires the safety of the drug before the test, which costs a lot of money and time
+            Time: if including the drug development process, it might take 10+ years
+            Causality: Provide strong causality as the RCT ensures that the only difference is. between the two groups is only the drug, 
+                       to minimize bias and confounding factors
+
+
+
+[Question 2:] Anticipating and Mitigating Bias
+Focusing on the observational study design you proposed in Question 1, 
+Critically evaluate the potential threats to your study's validity.
+
+Part A: Identify and explain the two most likely and impactful sources of bias 
+(e.g., selection bias, information bias/misclassification, confounding).
+       - Information bias: If the patient is lost to follow-up, whether the cause is, it would affect the result greatly
+       - Confounding factor: ApoE allele, as it is the accelerator of AZ patients already, if combined with VAR-X, 
+                            The rate of Cognitive decline could be from this said allele instead 
+
+
+Part B: Propose specific, concrete strategies you would implement during the study design and data analysis phases 
+to minimize the impact of these biases and any key confounders (e.g., age, disease severity at baseline, co-morbidities).
+      - Information bias: keeping the patient interested, remote assessment.
+      - Confounding factor: Analyze the data separately for ApoEϵ4 carriers and non-carriers
+
+
+Question 3: The Bioinformatics & Big Data Perspective
+Now, let's re-examine this research question through the lens of medical bioinformatics.
+
+Part A: How could you leverage existing large-scale resources, such as a national biobank or a federated network of Electronic Health Records (EHRs), 
+to conduct a large-scale retrospective cohort study?
+      - Search for the patient who was documented with Alzheimer's disease, who also had their genetic testing done to determine the presence of VAR-X status
+      - Needed a large sample size across the population, hospital system, to increase statistical power
+
+Part B: Compare and contrast the internal and external validity of this "big data" approach versus a traditional, prospectively recruited cohort. 
+What do you gain in terms of statistical power and generalizability, and what new challenges related to data quality and phenotype accuracy do you face?
+      - Big date retro. cohort
+            Internal validity: Lower. Data was collected for clinical, not for research purposes.
+            External validity: Higher. A larger sample size across the world reflects a  true association with Alzheimer's
+            Statistical power: providing high statistical power to detect small effect sizes
+            New challenges: Data Quality, the gene data might not be presented in every patient
+
+      - Traditional pro. cohort
+            Internal validity: Higher. Data is collected under a strict, standardized protocol.
+            External validity: Lower. The population is highly selected, less representative.  
+            Statistical power: Limited. Due to the high cost and labor of recruitment and follow-up.
+            New challenges:  Keeping patients engaged, very expensive and long-duration study.
